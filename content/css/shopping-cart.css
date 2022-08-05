@@ -1,0 +1,204 @@
+/* Form */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.thanh-toan{
+    width: 100%;
+    display: flex;
+}
+.dang-ky-thanh-toan{
+    width: 55%;
+    background-color: #fafafa;
+    border-radius: 8px;
+    box-shadow: 0 0 3px #efefef;
+    padding: 20px 30px 20px;
+}
+.form table.cart-table {
+    border: 1px solid #dddde0;
+    margin: 0 -1px 24px 0;
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    border-collapse: collapse;
+}
+.input-qty{
+    width: 150px;
+}
+.form table.cart-table th {
+    font-weight: 500;
+    padding: 9px 12px;
+    background: whitesmoke;
+    color: #393939;
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+}
+
+.form table.cart-table td {
+    text-align: center;
+    line-height: 1.5em;
+}
+
+/* Title page - h2 */
+.title-page {
+    margin-top: 30px;;
+    margin-bottom: 30px;
+}
+
+.title-page > h2 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    color: #393939;
+    font-weight: 500;
+}
+
+/* Thumbnail, Image */
+.product-thumbnail {
+    min-width: 32px;
+}
+
+#img1 {
+    width: 70px;
+    height: auto;
+}
+
+/* Product price */
+.product-price > span {
+
+    font-size: 14px;
+    color: #ff2f20;
+    font-weight: bold;
+}
+
+/* Anchor Text */
+a {
+    color: #696969;
+}
+
+.div-cart a {
+    text-decoration: none;
+}
+
+/* Quantity */
+.form table.cart-table td.product-quantity .quantity-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+/* Quantity input*/
+.form table.cart-table .product-quantity .detail-qty {
+    border: 2px solid #eee;
+    height: 30px;
+    line-height: 30px;
+    max-width: 100px;
+    position: relative;
+    display: table;
+}
+
+.detail-qty .qty-val {
+    padding-top: 20px;
+    line-height: 38px;
+}
+
+.form table.cart-table .product-quantity .qty-val {
+    height: 30px;
+    line-height: 30px;
+    width: 52px;
+    border: none;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.form table.cart-table .product-quantity .detail-qty a {
+    position: initial;
+    width: 30px;
+    height: 28px;
+    text-align: center;
+    display: table-cell;
+    font-size: 10px;
+    background-color: #fff;
+}
+
+.form table.cart-table .product-quantity .detail-qty a.qty-down {
+    border-right: 1px solid #e5e5e5;
+    
+}
+
+.form table.cart-table .product-quantity .detail-qty a.qty-up {
+    border-left: 1px solid #e5e5e5;
+}
+
+/* Button */
+.coupon {
+    float: left;
+}
+
+#input1{
+    margin-left: 10px;;
+}
+
+#button1 {
+    float: right;    
+    margin-right: 10px; 
+    width: 16%;
+}
+
+.form button.button, .form input.button, .form a.button {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    padding: 0 20px;
+    border-radius: 0px;
+    text-align: center;
+    background-color: #000000;
+    margin: 0;
+    font-weight: normal;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-radius: 50px;
+}
+
+/* Cart total  */
+tr, tbody, th,thead,tfoot{
+    padding: 4px 8px;
+}
+.cart_totals table {
+    border-collapse: separate;
+    margin: 0 0 6px;
+    padding: 0;
+   
+}
+
+.form .table1 {
+    width: 100%;
+    border: 1px solid #dddde0;
+}
+
+.form .table1 td, tr, th {
+    border-bottom: 1px solid #dddde0;
+}
+
+.table1 .th1 {
+    font-weight: 500;
+    padding: 9px 12px;
+    background: whitesmoke;
+    color: #393939;
+    text-align: left;
+}
+.form .cart-collaterals{
+    width: 45%;
+}
+.form .cart-collaterals .cart_totals {
+    float: right;
+    width: 90%;
+}
+
+.form-cart .cart-collaterals .cart_totals tr td {
+    color: #393939;
+}

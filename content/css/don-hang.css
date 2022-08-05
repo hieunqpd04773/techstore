@@ -1,0 +1,7 @@
+tbody, td, tfoot, th, thead, tr{
+    padding: 10px 12px;
+}
+.form table.cart-table td{
+    padding: 12px;
+   
+}

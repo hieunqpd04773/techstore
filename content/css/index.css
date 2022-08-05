@@ -1,0 +1,396 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*chung*/
+.wrapper{
+    width: 100%;
+}
+.inside{
+    width: 80%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a :hover{
+    color: #cdcdcd;
+    transition: 0.5s;
+}
+ul{
+    list-style: none;
+    list-style-type: none;
+}
+
+.title-ten-loai{
+    margin-top: 24px;
+    text-align: center;
+    text-transform: none;
+    font-weight: bolder;
+    font-size: 32px;
+}
+.gach-ngang{
+    background-color: #cdcdcd;
+    height: 4px;
+    margin: 12px 0px;
+    display: block;
+    max-width: 30px;
+    width: 100%;
+}
+.gach-ngang1{
+    background-color: #d1d1d1;
+    height: 1.5px;
+    margin-bottom: 12px;
+    display: block;
+    max-width: 90%;
+    width: 100%;
+}
+.overlay-hide{
+    display: none;
+}
+.overlay{
+    position: fixed;
+    width: 100%;
+    height: 1000px;
+    background-color: rgba(87, 87, 87, 0.568);
+    z-index: 1;
+}
+
+/*header*/
+.top-header{
+    padding: 16px 0px;
+    background-color: #444444;
+}
+.top-header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.top-header figure{
+    margin: 0px;
+}
+.logo-ifan{
+    width: 150px;
+    justify-content: flex-start;
+}
+.logo-ifan img{
+    width: 100%;
+}
+.top-header-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+.top-header-right-item{
+    padding: 0 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+.top-header-right-item a{
+    text-decoration: none;
+    color: white;
+}
+.top-header-right-item img{
+    width: 100px;
+}
+.top-header-right-item .fas{
+    font-size: 24px;
+}
+/*menu*/
+.menu{
+    background-color: black;
+    padding: 10px 0px;
+}
+.menu ul{
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.menu ul a{
+    text-decoration: none;
+    color: white;
+}
+
+ul li>a:hover{
+    color: #cdcdcd;
+    transition: 0.3s;
+}
+.menu ul li img{
+    width: 60px;
+}
+.menu ul li input[type=search]{
+    width: 175px;
+    border: none;
+    border-radius: 8px;
+    padding: 2px 8px;
+}
+@keyframes menudown {
+    from {top: -100px;
+        position: fixed;
+
+    }
+    to {top: 0px;
+        position: fixed;}
+  }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+    animation: menudown 0.6s;
+  }
+
+.alert-warning{
+    font-weight: bolder;
+    color: crimson;
+    background: none;
+    border: none;
+    
+}
+.input-search{
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    padding: 1px 8px;
+    width: 150px;
+}
+.input-search:focus{
+    border: none;
+}
+.submit-search{
+    border: 1px white solid;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+    padding: 0px 8px;
+    background-color: black;
+    margin-left: 0px;
+}
+/*card*/
+.card-list{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 0px;
+    flex-wrap: wrap;
+    align-items: stretch;
+    
+}
+.card{
+    width: 30%;
+    margin: 0 1.5%;
+    border: none;
+    margin-bottom: 12px;
+    position: relative;
+}
+.card-special{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    padding: 3px 8px;
+    background-color: red;
+    font-size: 14px;
+    color: white;
+    border-radius: 8px 0px 0px 8px;
+}
+.card-img{
+    background-color: #F2F2F2;
+    border-radius: 12px;
+    height: 75%;
+}
+.card-img:hover{
+    box-shadow: 0px 0px 5px #b9b9b9;
+    transition: 0.3s;
+}
+.card-img img{
+    width: 75%;
+    display: block;
+    margin: auto;
+}
+.card-text{
+    padding: 16px 0px 24px 0px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+.card-gia{
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(99, 99, 99);
+}
+.card-text p{
+    margin: 0px;
+}
+.card-text a{
+    color: black;
+}
+.card-text a:hover{
+    color: black;
+    box-shadow: 0 0 3px #cdcdcd;
+}
+.title-listcard{
+    margin-top: 24px;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/*footer*/
+footer#footer{
+    background-color: #eeeeee;
+    width: 100%;
+}
+footer #top-footer {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+.contact ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.contact ul li{
+    list-style: none;
+    margin: 0px;
+}
+footer #top-footer .row .col .contact a {
+    flex-flow: column;
+    text-align: left;
+    padding-top: 1rem;
+    text-decoration: none;
+    color: grey;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(49, 49, 49);
+}
+footer #top-footer .row {
+    padding-top: 5rem;
+    display: flex;
+    width: 90%;
+    margin: 0px auto;
+}
+#copyrigt {
+    text-align: center;
+    font-size: 12px;
+}
+.col h4 {
+    font-size: 20px;
+} 
+.number {
+    color: blue;
+}
+.col .contact ul li {
+    margin: 5px 0;
+}
+.from p {
+    font-weight: bold;
+}
+.from_Register {
+    font-weight: bold;
+    font-size: 18px;
+}
+.contact_inf {
+    text-align: center;
+}
+.formrequest__contact {
+    display: flex;
+}
+#footer input[type="text"] {
+    width: 234px;
+    height: 32px;
+    padding-right: 50px;
+    border-radius: 6px;
+    padding: 4px 8px;
+    margin: 0px 0px 0px 16px;
+}
+.from_p {
+    font-size: 10px;
+}
+input[type="submit"] {
+    margin-left: -69px;
+    height: 31px;
+    width: 69px;
+    background: rgb(66, 66, 66);
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    -webkit-appearance: none;
+}
+/*search*/
+form.example input[type=text] {
+    margin-top: 7px;
+    margin-bottom: -7px;
+    padding: 1px;
+    font-size: 17px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    margin-top: 7px;
+    margin-bottom: -7px;
+    float: left;
+    width: 20%;
+    padding: 1px;
+    background: #7A7A7A;
+    color: white;
+    font-size: 17px;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  /* form email*/
+  #input1 {
+    /* Tell the input to use all the available space */
+    flex-grow: 2;
+    /* And hide the input's outline, so the form looks like the outline */
+    border: none;
+  }
+  
+  #input1:focus {
+    /* removing the input focus blue box. Put this on the form if you like. */
+    outline: none;
+  }
+  
+  #button1 {
+    /* Just a little styling to make it pretty */
+    border: 1px solid black;
+    background: black;
+    color: white;
+    width: 100px;
+  }
+/*dang ky email */
+.emailform {
+    /* This bit sets up the horizontal layout */
+    display: flex;
+    flex-direction: row;
+    
+    /* This bit draws the box around it */
+  
+    /* I've used padding so you can see the edges of the elements. */
+    padding: 0px;
+  }
+  /*don dhang
+*/
